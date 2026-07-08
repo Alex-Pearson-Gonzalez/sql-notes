@@ -1,5 +1,12 @@
 # JOINS
 
+## Helpful links:
+
+https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/
+https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/
+
+---
+
 ## AS Statement (Aliasing)
 Renames a column or table temporarily, just for the output of the query. Doesn't change the actual table/column name.
 ​```sql
@@ -15,6 +22,7 @@ FROM employees AS e
 JOIN departments AS d ON e.department_id = d.id;
 ​```
 **When I'd use it:** Shortening long table names in joins, or making output column headers more readable.
+**Warning:** Aliases get assigned at the end 
 
 ---
 
